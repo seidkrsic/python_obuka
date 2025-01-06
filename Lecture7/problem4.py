@@ -24,7 +24,6 @@ def parse1(link):
             else: 
                 youtube_link = youtube_link.replace("http", "https")
             youtube_link = youtube_link.replace("www.youtube.com/embed/", "youtu.be/")
-            
         else: 
             if youtube_link.startswith("https"):  # https://youtube.com/embed/akks-q3whiuw4s
                 pass 
